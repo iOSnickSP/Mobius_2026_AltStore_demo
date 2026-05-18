@@ -1,0 +1,28 @@
+{
+  "restore": "https://your-backend.example.com/api/v1/apps/restore",
+  "updates": {
+    "url": "https://your-backend.example.com/api/v1/apps/update",
+    "pollingInterval": 43200
+  },
+  "license": {
+    "dynamicLicenseURL": "https://your-backend.example.com/api/v1/apps/license/issue",
+    "licenseRenewalURL": "https://your-backend.example.com/api/v1/apps/license/renew",
+    "signingCertificateURL": "https://your-backend.example.com/api/v1/apps/license/signing_cert",
+    "encryptionCertificateURL": "https://your-backend.example.com/api/v1/apps/license/encryption_cert"
+  },
+  "overridesByAppleItemID": {
+    "YOUR_MARKETPLACE_APPLE_ITEM_ID": {
+      "restore": "https://your-backend.example.com/api/v1/marketplace/restore",
+      "updates": {
+        "url": "https://your-backend.example.com/api/v1/marketplace/update",
+        "pollingInterval": 43200
+      },
+      "license": {
+        "dynamicLicenseURL": "https://your-backend.example.com/api/v1/marketplace/license/issue",
+        "licenseRenewalURL": "https://your-backend.example.com/api/v1/marketplace/license/renew",
+        "signingCertificateURL": "https://your-backend.example.com/api/v1/marketplace/license/signing_cert",
+        "encryptionCertificateURL": "https://your-backend.example.com/api/v1/marketplace/license/encryption_cert"
+      }
+    }
+  }
+}
