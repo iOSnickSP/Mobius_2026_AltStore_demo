@@ -1,7 +1,7 @@
 # AlternativeStore — MarketplaceKit Demo
 
 > **Talk:** "Как легально опубликоваться вне App Store" · [Mobius 2026](https://mobiusconf.com)  
-> **Author:** Sergei Vikhliaev · Lead iOS Developer at [Onside](https://onside.io)
+> **Author:** Sergei Vikhliaev · Team Lead (mobile-first)
 
 A minimal, production-structured iOS app demonstrating every layer of an **Alternative App Marketplace** built on Apple's `MarketplaceKit`.
 
@@ -276,7 +276,7 @@ Feel free to use this as a starting point for your own marketplace. If you build
 # AlternativeStore — Демо-проект MarketplaceKit
 
 > **Доклад:** «Как легально опубликоваться вне App Store» · [Mobius 2026](https://mobiusconf.com)  
-> **Автор:** Сергей Вихляев · Lead iOS Developer в [Onside](https://onside.io)
+> **Автор:** Сергей Вихляев · Team Lead (mobile-first)
 
 Минималистичное iOS-приложение с production-структурой, демонстрирующее все слои **Alternative App Marketplace** на базе `MarketplaceKit` от Apple.
 
